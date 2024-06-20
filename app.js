@@ -42,7 +42,7 @@ function slice(){
 
 
 
-function touppercase(){
+function upper(){
     let n = document.getElementById("input").value;
     let touppercase = n.toUpperCase();
     document.getElementById("result").value = touppercase;
@@ -50,7 +50,7 @@ function touppercase(){
     document.getElementById("input").value = "";
 }
 
-function tolowercase(){
+function lower(){
     let n = document.getElementById("input").value;
     let tolowercase = n.toLowerCase();
     document.getElementById("result").value = tolowercase;
