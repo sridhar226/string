@@ -4,7 +4,7 @@ function length() {
     let length = n.length;
     document.getElementById("result").value = length;
 
-    document.getElementById("input").value = "";
+    // document.getElementById("input").value = "";
 }
 
 function replace() {
@@ -14,7 +14,7 @@ function replace() {
     let replace = a.replace(b, c);
     document.getElementById("result").value = replace;
 
-    document.getElementById("input").value = "";
+    // document.getElementById("input").value = "";
 }
 function indexof() {
     let a = document.getElementById("input").value;
@@ -22,7 +22,7 @@ function indexof() {
     let indexof = a.indexOf(b);
     document.getElementById("result").value = indexof;
 
-    document.getElementById("input").value = "";
+    // document.getElementById("input").value = "";
 }
 
 function slice(){
@@ -31,23 +31,15 @@ function slice(){
     let slice = a.slice(a,b);
     document.getElementById("result").value = slice;
 
-    document.getElementById("input").value = "";
+    // document.getElementById("input").value = "";
 }
-
-
-
-
-
-
-
-
 
 function upper(){
     let n = document.getElementById("input").value;
     let touppercase = n.toUpperCase();
     document.getElementById("result").value = touppercase;
 
-    document.getElementById("input").value = "";
+    // document.getElementById("input").value = "";
 }
 
 function lower(){
@@ -55,7 +47,7 @@ function lower(){
     let tolowercase = n.toLowerCase();
     document.getElementById("result").value = tolowercase;
 
-    document.getElementById("input").value = "";
+    // document.getElementById("input").value = "";
 }
 
 function repeat(){
@@ -64,7 +56,7 @@ function repeat(){
     let repeat = a.repeat(b);
     document.getElementById("result").value = repeat;
 
-    document.getElementById("input").value = "";
+    // document.getElementById("input").value = "";
 }
 
 function match(){
@@ -73,7 +65,7 @@ function match(){
     let match = a.match(b);
     document.getElementById("result").value = match;
 
-    document.getElementById("input").value = "";
+    // document.getElementById("input").value = "";
 }
 
 function search(){
@@ -82,7 +74,7 @@ function search(){
     let search = a.search(b);
     document.getElementById("result").value = search;
 
-    document.getElementById("input").value = "";
+    // document.getElementById("input").value = "";
 }
 
 function concat(){
@@ -91,7 +83,7 @@ function concat(){
     let concat = a.concat(b);
     document.getElementById("result").value = concat;
 
-    document.getElementById("input").value = "";
+    // document.getElementById("input").value = "";
 }
 
 function split(){
@@ -99,7 +91,7 @@ function split(){
     let split = n.split("");
     document.getElementById("result").value = split;
 
-    document.getElementById("input").value = "";
+    // document.getElementById("input").value = "";
 }
 
 function trim(){
@@ -107,5 +99,5 @@ function trim(){
     let trim = n.trim();
     document.getElementById("result").value = trim;
 
-    document.getElementById("input").value = "";
+    // document.getElementById("input").value = "";
 }
